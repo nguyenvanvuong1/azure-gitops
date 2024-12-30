@@ -6,10 +6,10 @@ Rollout:
   enabled: false
 
 image:
-  repository: sd4776.azurecr.io/sd4776-dev-app1
+  repository: sd4776.azurecr.io/demoapidevopsfordev
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1"
+  tag: "12"
 
 replicaCount: 1
 revisionHistoryLimit: 3
